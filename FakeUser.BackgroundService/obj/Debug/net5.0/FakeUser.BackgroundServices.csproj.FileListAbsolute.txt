@@ -1,0 +1,5 @@
+C:\Users\karag\source\repos\FakeUser.BackgroundService\obj\Debug\net5.0\FakeUser.BackgroundServices.csproj.AssemblyReference.cache
+C:\Users\karag\source\repos\FakeUser.BackgroundService\obj\Debug\net5.0\FakeUser.BackgroundServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karag\source\repos\FakeUser.BackgroundService\obj\Debug\net5.0\FakeUser.BackgroundServices.AssemblyInfoInputs.cache
+C:\Users\karag\source\repos\FakeUser.BackgroundService\obj\Debug\net5.0\FakeUser.BackgroundServices.AssemblyInfo.cs
+C:\Users\karag\source\repos\FakeUser.BackgroundService\obj\Debug\net5.0\FakeUser.BackgroundServices.csproj.CoreCompileInputs.cache

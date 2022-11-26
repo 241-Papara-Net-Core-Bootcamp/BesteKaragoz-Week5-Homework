@@ -1,0 +1,504 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\karag\\source\\repos\\FakeUser.BackgroundService\\FakeUser.BackgroundServices.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\karag\\source\\repos\\FakeUser.BackgroundService\\FakeUser.BackgroundServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karag\\source\\repos\\FakeUser.BackgroundService\\FakeUser.BackgroundServices.csproj",
+        "projectName": "FakeUser.BackgroundServices",
+        "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.BackgroundService\\FakeUser.BackgroundServices.csproj",
+        "packagesPath": "C:\\Users\\karag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karag\\source\\repos\\FakeUser.BackgroundService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Core\\FakeUser.Core.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Core\\FakeUser.Core.csproj"
+              },
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Data\\FakeUser.Data.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Data\\FakeUser.Data.csproj"
+              },
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj"
+              },
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Infrastructure\\FakeUser.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Infrastructure\\FakeUser.Infrastructure.csproj"
+              },
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Service\\FakeUser.Service.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Service\\FakeUser.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karag\\source\\repos\\FakeUser.Core\\FakeUser.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karag\\source\\repos\\FakeUser.Core\\FakeUser.Core.csproj",
+        "projectName": "FakeUser.Core",
+        "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Core\\FakeUser.Core.csproj",
+        "packagesPath": "C:\\Users\\karag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Data\\FakeUser.Data.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Data\\FakeUser.Data.csproj"
+              },
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.32, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karag\\source\\repos\\FakeUser.Data\\FakeUser.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karag\\source\\repos\\FakeUser.Data\\FakeUser.Data.csproj",
+        "projectName": "FakeUser.Data",
+        "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Data\\FakeUser.Data.csproj",
+        "packagesPath": "C:\\Users\\karag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj",
+        "projectName": "FakeUser.Domain",
+        "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj",
+        "packagesPath": "C:\\Users\\karag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karag\\source\\repos\\FakeUser.Infrastructure\\FakeUser.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karag\\source\\repos\\FakeUser.Infrastructure\\FakeUser.Infrastructure.csproj",
+        "projectName": "FakeUser.Infrastructure",
+        "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Infrastructure\\FakeUser.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\karag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Core\\FakeUser.Core.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Core\\FakeUser.Core.csproj"
+              },
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Data\\FakeUser.Data.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Data\\FakeUser.Data.csproj"
+              },
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NEST.JsonNetSerializer": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karag\\source\\repos\\FakeUser.Service\\FakeUser.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karag\\source\\repos\\FakeUser.Service\\FakeUser.Service.csproj",
+        "projectName": "FakeUser.Service",
+        "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Service\\FakeUser.Service.csproj",
+        "packagesPath": "C:\\Users\\karag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Domain\\FakeUser.Domain.csproj"
+              },
+              "C:\\Users\\karag\\source\\repos\\FakeUser.Infrastructure\\FakeUser.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\karag\\source\\repos\\FakeUser.Infrastructure\\FakeUser.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
